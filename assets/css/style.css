@@ -1,0 +1,22 @@
+header {
+  border-bottom-color: solid, 3px;
+
+}
+h1 {
+  padding: 30px;
+  margin-left: 15%;
+  margin-right: 65%;
+  background-color: teal;
+  border-style: soild;
+  border-width: 5px;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+nav {
+  float: right;
+  position: relative;
+  bottom: 80px;
+  right: 100px;
+}
