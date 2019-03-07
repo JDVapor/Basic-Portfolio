@@ -1,22 +1,90 @@
-header {
-  border-bottom-color: solid, 3px;
-
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-h1 {
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*RESET ^*/
+
+header {
+  background-color: #ffffff;
+  border-bottom-color: #cccccc;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+footer {
   padding: 30px;
+  border-top-color: #4aaaa5;
+  border-top-style: solid;
+  border-top-width: 10px;
+  background-color: #666666;
+}
+
+h1 {
+  font-size: 36px;
+  position: relative;
+  padding: 25px;
+  /* margin-top: -8px; */
   margin-left: 15%;
   margin-right: 65%;
-  background-color: teal;
-  border-style: soild;
-  border-width: 5px;
+  margin-bottom: auto;
+  background-color: #4aaaa5;
   color: white;
-  font-family: sans-serif;
+  font-family: 'Georgia', Times, Times New Roman, serif;
   text-align: center;
 }
 
 nav {
+  background-color: #ffffff;
   float: right;
   position: relative;
-  bottom: 80px;
-  right: 100px;
+  margin-left: 65%;
+  margin-right: 15%;
+  margin-top: -50px;
+}
+
+section {
+  background-image: image();
+}
+
+article {
+
 }
