@@ -44,6 +44,7 @@ table {
 /*RESET ^*/
 
 body {
+	background-image: url("../images/crossline-lines.png");
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -125,19 +126,38 @@ img {
 	border: 2px solid #cccccc;
 	border-radius: 10px;
 	margin: 25px;
+	float:left;
 }
 
 section {
-
-	/* background-image: "assets/images/crossline-lines.png" */
 }
 
 article {
+	background-color: #ffffff;
+	/* z-index: 2; */
 	margin-top: 3%;
 	margin-right: 15%;
 	margin-bottom: 10%;
 	margin-left: 15%;
-
 	border: 2px solid #cccccc;
+}
 
+p {
+	padding: 25px;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	font-family: 'Asap', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: normal;
+	line-height: 25px;
+	letter-spacing: normal;
+	text-indent: 50px;
+}
+
+#p1 {
+	padding-top: 32px;
+}
+
+#p3 {
+	padding-top: 27px;
 }
