@@ -113,13 +113,14 @@ a:active {color: #cccccc;}
 
 article {
 	width: 960px;
-	height: 600px;
+	/* height: 600px; */
 	background-color: #ffffff;
 	margin-top: 3%;
 	margin-right: 15%;
 	margin-bottom: 10%;
 	margin-left: 15%;
 	border: 2px solid #cccccc;
+	padding-bottom: 30px;
 }
 
 h2 {
@@ -162,6 +163,10 @@ p {
 	padding-top: 30px;
 }
 
+#p4 {
+	padding-bottom: 30px;
+}
+
 /* INDEX^ */
 
 div {
@@ -185,6 +190,7 @@ div {
 .flex2 {
 	display: flex;
 	margin-left: 25px;
+	margin-bottom: 45px;
 }
 
 .port {
@@ -203,10 +209,78 @@ div {
 	bottom: 60px;
 	padding-top: 11px;
 	padding-bottom: 4px;
+	margin-left: 2px;
   background-color: #4aaaa5;
   color: white;
   font-family: 'Georgia', Times, Times New Roman, serif;
   text-align: center;
+}
+
+.nameInput {
+	color: #666666;
+	font-size: 18px;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	margin-left: 25px;
+}
+.nameInputBox {
+	width: 903px;
+	height: 30px;
+	color: #666666;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 25px;
+}
+
+.emailInput {
+	color: #666666;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-right: 25px;
+	margin-bottom: 5px;
+	margin-left: 25px;
+}
+
+.emailInputBox {
+	width: 903px;
+	height: 30px;
+	color: #666666;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-right: 25px;
+	margin-bottom: 5px;
+	margin-left: 25px;
+}
+
+.msgInput {
+	color: #666666;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-left: 25px;
+}
+
+textarea {
+	width: 903px;
+	height: 220px;
+	color: #666666;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-left: 25px;
+}
+
+input[type=submit] {
+  background-color: #4aaaa5;
+  border: none;
+  color: white;
+  padding: 10px 26px;
+  text-decoration: none;
+  margin: 4px 2px;
+	margin-left: 25px;
+  cursor: pointer;
+	font-size: 18px;
 }
 
 footer {
